@@ -1,0 +1,31 @@
+# Android / Gradle
+.gradle/
+build/
+app/build/
+local.properties
+.kotlin/
+captures/
+ui*.xml
+*.uix
+*.screencap
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 发布签名密钥和本机签名配置（不可提交）
+release.keystore
+keystore.properties
+
+# 本地真机验证证据（可能包含个人课表信息，不入库）
+.codex/evidence/
+.codex/yujie-*
